@@ -22,6 +22,5 @@ eureka:
   instance:
     prefer-ip-address: true
 
-rabbitmq:
-  host:
-    http://192.168.29.170
+  rabbitmq:
+    host: 192.168.29.170
