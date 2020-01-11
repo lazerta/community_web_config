@@ -1,4 +1,10 @@
 
+spring:
+  application:
+    name: community-eureka
+  rabbitmq:
+    host: 192.168.29.170   
+
 server:
   port: 6868
 eureka:
@@ -8,5 +14,4 @@ eureka:
     service-url:
       defaultZone: http://192.168.29.125:${server.port}/eureka
 
-  rabbitmq:
-    host: 192.168.29.170
+
