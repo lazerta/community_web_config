@@ -2,7 +2,7 @@ host: 192.168.29.170
 
 jwt:
   config:
-    secret_key: key
+    secret_key: complex_key
     duration: 5
 server:
   port: 9008
